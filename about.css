@@ -1,0 +1,86 @@
+
+        /*lien de la barre de navigation*/
+    nav a{
+        margin:0px 10px;
+   color:white;
+        text-decoration:none;
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            margin-right: 60px;
+            margin-left:50%;
+            padding-top: 20px;
+            padding-right: 15px;
+        list-style: none;
+        text-align: center;
+        }
+        /*couleur de fond du lien*/
+       
+        /* la barre de navigation*/
+        nav{
+        background-color:rgb(0, 0, 0);
+        padding-left:15px ;
+        padding-right:15px ;
+        margin: 0px;
+        display:flex;
+      
+        justify-content: space-between;
+        height: 70px;
+        justify-content: center;
+        opacity:0.8;
+        padding-bottom: 3px;
+        min-height: 100px;;
+        text-align: center;
+        border: 1px solid #333;
+              width:100%;
+        }
+        .form{
+            border: 1px solid rgba(128, 128, 128, 0.692);
+            width: 400px;
+            justify-content: center;
+            margin-top: 70px;
+            text-align: center;
+            border-radius: 6px;
+        margin: 500px;
+        margin-top: 70px;
+        background-color: #39ac22;
+        transform: scale(1.2);
+        box-shadow: 10px 10px 10px 10px red;
+        }
+        .form:hover{
+            background-color: red;
+           transition: transform 0s ease;
+           box-shadow: 0px 10px 20px rgb(16, 104, 218);
+           transform: scale(1.1);
+
+            
+        }
+        .reine{
+            background-color: orange;
+            width: 100px;
+            height: 50px;
+            border: none;
+        }
+        .reine:active{
+            background-color: rgb(214, 145, 17);
+                    }
+        input{
+            padding: 10px;
+width: 300px;
+ border-radius: 6px;
+ height: 20px;
+
+
+        }
+        body{
+            padding: 0;
+            margin: 0;
+          
+        }
+        textarea:hover{
+            background-color: lime;
+            box-shadow: 0px 10px 20px rgb(16, 104, 218);
+
+        }
+  
